@@ -20,30 +20,21 @@
  */
 /*.tabbrowser-tab[label^="New Tab"] .tab-icon-image,
   .tabbrowser-tab[label^="Nueva pestaña"] .tab-icon-image {*/
-    .tabbrowser-tab:is([label^="New Tab"], [label^="Nueva pestaña"]) .tab-icon-image {
-    background: url("img/logo.blue.png") !important;
-    background-repeat: no-repeat !important;
-    background-size: 16px !important;
-    margin-right: 3.5px !important;
-    padding-left: 16px !important;
-    width: 0 !important;
+.tabbrowser-tab:is([label^="New Tab"], [label^="Nueva pestaña"]) .tab-icon-image {
+  background: url("img/logo.blue.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: 16px !important;
+  margin-right: 3.5px !important;
+  padding-left: 16px !important;
+  width: 0 !important;
 }
-
-
-/* 
- * Hides close button on first tab if alone 
- */
-/* .tabbrowser-tab:only-of-type .tab-close-button {
-    visibility: hidden !important;
-} */
-
 
 
 /* 
  * Fix to chrome/urlbar_connection_type_background_colors.css
  * Hides color green on verifiedDomain 
  */
-   #identity-box.verifiedDomain::before{ background-color: revert-layer !important }
+#identity-box.verifiedDomain::before{ background-color: revert-layer !important }
 
 
 /* 
@@ -51,21 +42,3 @@
  * SidePanel History and Bookmarks's scrollbar color
  */
 .panel-subview-body, #permList, scrollbar { color: rgb(94, 94, 94); }
-
-/* prevent white flickering, when switching pages */
-/* tabpanels#tabbrowser-tabpanels {
-  background-color: #333 !important;
-}
-
-.panel-subview-body{
-  scrollbar-face-color: rgb(94, 94, 94);
-  scrollbar-track-color: rgb(57, 59, 65);
-  scrollbar-color: rgb(94, 94, 94) rgb(57, 59, 65);
-  scrollbar-width: thin;
- }
- #permList, scrollbar{
-  scrollbar-face-color: rgb(94, 94, 94);
-  scrollbar-track-color: rgb(57, 59, 65);
-  scrollbar-color: rgb(94, 94, 94) rgb(57, 59, 65);
-  scrollbar-width: thin;
- } */
