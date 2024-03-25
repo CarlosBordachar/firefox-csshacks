@@ -1,0 +1,27 @@
+@import url(content/css_scrollbar_width_color.css);
+
+
+/* Apply your custom modifications after imports */
+
+
+@-moz-document url(about:newtab), url(about:home) {
+  /* Changes the logo on the about:home screen */
+  .logo-and-wordmark > .logo {
+    background-image: url("img/logo.blue.png") !important;
+  }
+
+  /* Changes word "Firefox" */
+  /*.logo-and-wordmark > .wordmark {
+    background: none !important;
+    width: unset !important;
+  }
+  .logo-and-wordmark > .wordmark::before {
+    content: "New Text Here";
+    font-size: 40pt;
+  }*/
+}
+
+/* Hides search box */
+.search-inner-wrapper {
+  display:none !important;
+}
