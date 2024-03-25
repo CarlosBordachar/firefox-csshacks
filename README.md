@@ -156,3 +156,38 @@ Example userChrome.css resulting in rather complete dark blueish-grey UI:
 ```
 
 You can use individual modules from theme such as to only include popups_and_menus. But it would still be required that you import the theme_color_variables.css or you'll have to manually edit all the colors.
+
+# Top Styles
+
+Styles used or looked fine.
+
+## Chrome
+
+### Looked fine
+
+- [tab_close_button_always_on_hover.css](chrome/tab_close_button_always_on_hover.css)
+- [vertical_context_navigation.css](chrome/vertical_context_navigation.css)
+- [loading_indicator_bouncing_line.css](chrome/loading_indicator_bouncing_line.css)
+- [floating_findbar_on_top.css](chrome/floating_findbar_on_top.css)
+- [selected_tab_gradient_border.css](chrome/selected_tab_gradient_border.css)
+- [urlbar_container_color_border.css](chrome/urlbar_container_color_border.css)
+- [urlbar_connection_type_background_colors.css](chrome/urlbar_connection_type_background_colors.css)
+- [urlbar_connection_type_text_colors.css](chrome/urlbar_connection_type_text_colors.css)
+- [minimal_in-UI_scrollbars.css](chrome/minimal_in-UI_scrollbars.css)
+- [numbered_tabs.css](chrome/numbered_tabs.css)
+- [privatemode_indicator_as_menu_button.css](chrome/privatemode_indicator_as_menu_button.css)
+- [tab_closing_animation.css](chrome/tab_closing_animation.css)
+
+### Like Google Chrome
+
+- [round_ui_items.css](chrome/round_ui_items.css)
+- [curved_tabs.css](chrome/curved_tabs.css)
+- [rounded_menupopups.css](chrome/rounded_menupopups.css)
+
+### Nice too
+
+- [tab_loading_progress_bar.css](chrome/tab_loading_progress_bar.css)
+- [tab_line_loading_indicator.css](chrome/tab_line_loading_indicator.css)
+- [vertical_tabs.css](chrome/vertical_tabs.css)
+- [tab_animated_active_border.css](chrome/tab_animated_active_border.css)
+- [tabs_on_bottom.css](chrome/tabs_on_bottom.css)
