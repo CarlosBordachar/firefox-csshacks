@@ -1,0 +1,6 @@
+/* 
+ * Hides close button on first tab if alone 
+ */
+.tabbrowser-tab:only-of-type .tab-close-button {
+    visibility: hidden !important;
+} 
