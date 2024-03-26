@@ -42,3 +42,25 @@
  * SidePanel History and Bookmarks's scrollbar color
  */
 .panel-subview-body, #permList, scrollbar { color: rgb(94, 94, 94); }
+
+
+/*
+ * Sidebar color
+ */
+#sidebar-search-container,
+#bookmarks-view,
+#historyTree,
+[lwt-sidebar] {
+  background-color: #2b2a33 !important; /* https://acorn.firefox.com/latest/styles/color-MZHBVuZc#section-background-c2 */
+}
+
+#sidebar-box #sidebar-header {
+  border: none !important;
+}
+#sidebar-box #sidebar-header #sidebar-close {
+  fill-opacity: 0 !important;
+  transition: color 300ms cubic-bezier(0.645, 0.045, 0.355, 1) !important;
+}
+#sidebar-box #sidebar-header #sidebar-close:hover {
+  fill-opacity: 0 !important;
+}
